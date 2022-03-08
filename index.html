@@ -44,9 +44,13 @@ supportsCssVars() || alert("lên lap coi mới thấy hiệu ứng nha 👉👈"
 				<h2 class="content__title no-select">
 					<span class="content__title-sub">Chúc mọi người 8/3 zui zẻ và luôn xinh đẹp ạ ✨</span>
 				</h2>
-				<iframe src="img/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+				<!-- <iframe src="img/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
 				<audio id="player" autoplay loop controls>
 					<source src="img/music1.mp3" type="audio/mp3" style="margin-top: 30px;">
+				</audio> -->
+				<iframe src="./img/silence.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+				<audio autoplay loop  id="playAudio">
+					<source src="./img/music1.mp3">
 				</audio>
 			</div> 
 		</main>
